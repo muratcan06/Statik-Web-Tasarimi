@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kişisel Web Sayfası Tasarımı</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    </head>
+    <body>
+        <!-- Menü -->
+        <header>
+            <div class="container">
+                <nav id="navMenu">
+                    <h1>Muratcan Yanık</h1>
+                    <ul id="menu">
+                        <li>
+                            <a href="#profile">Anasayfa</a>
+                        </li>
+                        <li>
+                            <a href="#courses">Kurslar</a>
+                        </li>
+                        <li>
+                            <a href="#skills">Yetenekler</a>
+                        </li>
+                        <li>
+                            <a href="#contact">İletişim</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- Menü Bitişi -->
+
+        <!-- Profil Tanıtımı -->
+        <section id="profile">
+                <img id="img-profile" src="img/profilPhoto.jpg">
+                <h2>Muratcan Yanık</h2>
+                <p>Free Lancer Software Developer</p>
+        </section>
+        <!-- Profil Tanıtımı Bitişi -->
+
+        <div id="skills">
+            <h3>Yetenekler | Skills</h3>
+            <ul>
+                <li style="opacity: .5;"><img src="img/html.png"></li>
+                <li style="opacity: .7;"><img src="img/css.png"></li>
+                <li style="opacity: .9;"><img src="img/javascript.png"></li>
+                <li style="opacity: .5;"><img src="img/c.png"></li>
+                <li style="opacity: .7;"><img src="img/mysql.png"></li>
+            </ul>
+        </div>
+
+        <div id="courses">
+            <h1>Kurslar</h1>
+            <div class="course">
+                <div class="course-heading">
+                    <img class="img-course" src="img/webCourse.jpg">
+                </div>
+                <div class="course-info">
+                    <h4 class="course-heading">Full Web Programlama Kursu</h4>
+                    <div class="description">
+                        <p class="course-article">Web'in hakimiyetini elinizde tutun, çok faydalı 
+                            bir kurstur. Lorem ipsum dolor sit amet consectetur.
+                        </p>
+                    </div>
+                    <div class="date">
+                        <small>10 / 02 / 2021</small>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="course">
+                <div class="course-heading">
+                    <img class="img-course" src="img/CSharpCourse.png">
+                </div>
+                <div class="course-info">
+                    <h4 class="course-heading">C# İle Uygulama Geliştirme</h4>
+                    <div class="description">
+                        <p class="course-article">
+                            Tarihte çığır açacak uygulamaları bu kurs ile yazın! 
+                            Lorem ipsum, dolor sit amet consectetur adipisicing.
+                        </p>
+                    </div>
+                    <div class="date">
+                        <small>15 / 02 / 2021</small>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="course">
+                <div class="course-heading">
+                    <img class="img-course" src="img/yazilimCourse.jpg">
+                </div>
+                <div class="course-info">
+                    <h4 class="course-heading">Nitelikli Yazılım Geliştirme Kursu</h4>
+                    <div class="description">
+                        <p class="course-article">
+                            Bu kurs ile sektörde mükemmeliyetçi yazılımcılar geliştiriyoruz.
+                            Hemen kursumuza başlayın. Lorem ipsum dolor sit amet consectetur.
+                        </p>
+                    </div>
+                    <div class="date">
+                        <small>28 / 02 / 2021</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer" id="contact">
+            <h3>Bize Ulaşın</h3>
+            <div class="form">
+                <div class="form-group">
+                    <input type="text" id="name" class="form-control" placeholder="İsminiz">
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" class="form-control" placeholder="Email Adresiniz">
+                </div>
+                <div class="form-group">
+                    <textarea class="text-area" style="resize: none;" id="message" rows="6" placeholder="Mesajınız"></textarea>
+                </div>    
+                <button class="form-control btn">Gönder</button>
+            </div>
+            
+            <div class="copyright">
+                <i style="color: #f2f2f2;">©2021 Bir Muratcan Yanık Ürünüdür.</i>
+            </div>
+            <div class="social-media">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+        </div>
+
+
+
+
+    </body>
+</html>
